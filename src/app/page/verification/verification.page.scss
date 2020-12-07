@@ -1,0 +1,30 @@
+.content{
+    padding: 20px;
+}
+.items{
+    margin-top: 5%;
+}
+.fab-next{
+    margin-top: 13%;
+}
+
+.resend{
+    height: 20px;
+    float: right;
+    color : gray;
+}
+
+.resend-active{
+    height: 20px;
+    float: right;
+    background: darkblue;
+    color : #fff;
+}
+.countdown{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.title{
+    font-weight: bold;
+}

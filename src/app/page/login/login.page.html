@@ -1,0 +1,65 @@
+<ion-content>
+    
+  
+<ion-slides [options]="slideOptions" pager="true" #slider (ionSlidesDidLoad)="slidesDidLoad(slider)">
+  <ion-slide>
+    <div class="bg-slide">
+      <img src="../../../assets/imgs/slide/Slide_Welcome2.png" alt="" width="50" class="img-slide">
+      <div class="slider-caption">
+        <h1 class="caption-1" color="primary">Solui <br> Kebersihan <br>Rumah anda !</h1>
+        <span class="small-text">Duduk di sofa anda lalu biarkan <br>
+        kami membersihkan rumah anda</span>
+      </div>
+    </div>
+  </ion-slide>
+
+  <ion-slide>
+    <div class="bg-slide">
+      <img src="../../../assets/imgs/slide/Slide_Welcome1.png" alt="" width="50" class="img-slide">
+      <img src="../../../assets/imgs/icon.png" alt="" class="logo">
+      <div class="slider-caption">
+        <h1 class="caption-1" color="primary">Selamat <br> Datang <br>di EZKlin !</h1>
+        <span class="small-text">Solusi Kebersihan <br> terpercaya</span>
+      </div>
+    </div>
+  </ion-slide>
+  
+  <ion-slide>
+    <div class="bg-slide">
+      <img src="../../../assets/imgs/slide/Slide_Welcome3.png" alt="" style="position: relative;" width="50" class="img-slide">
+      <div class="slider-caption">
+        <h1 class="caption-1" color="primary">Layanan <br> Unggulan <br>Kami</h1>
+        <span class="small-text">Dengan pelayanan kebersihan prima kami <br>
+        tersedia layanan bersih rumah dan laundry</span>
+      </div>
+    </div>
+  </ion-slide>
+  <ion-slide>
+    <div class="bg-slide">
+      <img src="../../../assets/imgs/slide/Slide_Welcome4.png" alt="" style="position: relative;" width="50" class="img-slide">
+      <div class="slider-caption">
+        <h1 class="caption-1" color="primary">Order <br> Sekarang </h1>
+        <span class="small-text">Tunggu apalagi? <br>
+        Daftar Sekarang untuk <br>
+        memulai order!</span>
+      </div>
+    </div>
+  </ion-slide>
+</ion-slides>
+<ion-row>
+  <ion-col size="6" align="center">
+    <ion-button  color="secondary" (click)="login()" class="btn-login">
+      Login
+    </ion-button>
+  </ion-col>
+  <ion-col size="6" align="center">
+    <ion-button color="primary" (click)="register()" class="btn-login">
+      Register
+    </ion-button>
+  </ion-col>
+</ion-row>
+<div style="margin: 10px;">
+  <span style="font-size: 0.8rem;">Dengan melakukan login, berarti anda menyetujui
+  <a (click)="term()">Syarat Ketentuan</a>  dan <a href="#">Kebijakan Privasi</a> </span>
+</div>
+</ion-content>

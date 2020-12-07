@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content">
+    <h1 class="title">Login</h1>
+    <span>Ketikkan nomor handphone anda yang sudah terdaftar</span>
+
+    <ion-item class="items">
+      <ion-label position="stacked">Nomor Handphone</ion-label>
+      <ion-input type="tel" placeholder="+62 1234567"></ion-input>
+    </ion-item>
+    
+  </div>
+
+  <ion-fab vertical="center" horizontal="end" slot="fixed" class="fab-next" color="secondary">
+    <ion-fab-button (click)="next()">
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

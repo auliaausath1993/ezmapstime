@@ -1,0 +1,7 @@
+{
+  "name": "ez-klin",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
